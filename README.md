@@ -1,5 +1,5 @@
-
-# Scalper Journal – Streamlit + GitHub (no servers, no webhooks)
+https://orderflow-smc-trade.streamlit.app/
+# Orderflow Trading Stats
 
 Ein extrem einfaches **Streamlit**-Journal, das deine Trades direkt als CSV ins **GitHub-Repo** schreibt
 (mittels GitHub Contents API). Kein FastAPI, keine Datenbanken, nur **Streamlit + GitHub**.
