@@ -7,7 +7,7 @@ import streamlit as st
 
 from gh_store import GHStore
 
-st.set_page_config(page_title="Scalper Journal – GitHub", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="Orderflow Trade Stats", page_icon="⚡", layout="wide")
 
 # --- Config from secrets (Streamlit Cloud) or env (local) ---
 TOKEN  = st.secrets.get("GITHUB_TOKEN", os.getenv("GITHUB_TOKEN", ""))
