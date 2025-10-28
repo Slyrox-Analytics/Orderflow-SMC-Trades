@@ -68,7 +68,7 @@ def compute_rr(entry, stop, tp):
         return None
 
 # --- UI ---
-st.title("⚡ Scalper Journal — Streamlit + GitHub")
+st.title("⚡ Orderflow Trade Stats")
 
 page = st.sidebar.radio("Navigation", ["Trade erfassen", "Journal & Filter", "Stats & Export"])
 
